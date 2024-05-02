@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&family=Nunito:wght@200;300;400;500;700&display=swap');
+
+/*como colocar una fuente descargada*/
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../font/Montserrat-VariableFont_wght.ttf");
+}
+/*para aplicar en todo el body*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*estilo de fonts para todo el body*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(235, 219, 184);
+
+}
+
+/*estilo de font para todos los h*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', cursive;
+}
+
+.subtituloPrincipal {
+  background-color: #f0ebe5;
+  text-align: center;
+  font-size: 20px;
+  color:rgb(13, 13, 14);
+  font-weight: lighter;
+  padding:1%;
+  margin:1%;
+  margin-top: 0.5rem;
+   
+}
+
+.subtitulo {
+  background-color: #ebc49a;
+  text-align: center;
+  font-size: 18px;
+  color:rgb(13, 13, 14);
+  font-weight: lighter;
+  padding:1%;
+  margin:1%;
+   
+}.listasinmarcadores{
+  list-style-type: none; /* Elimina los marcadores de lista */
+
+
+}
+
+.piepagina{ 
+  background-color: #ebc49a;
+  border-style:groove;
+  border-color: black;
+ 
+  }
+  .bi{
+    font-size:28px;
+    color:rgb(13, 13, 14);
+  }
+  .redSocial {
+    display: flex;
+    justify-content:space-around;
+  }
+
+  .btnVerde {
+    
+    height: 2.5rem;
+    background-color: #3ec99b;
+    border: 1px solid #3ec99b;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+     
+  
+  }
+  .nosotros{
+    
+      background-color: bisque;
+      border-style:groove;
+      border-color: rgb(189, 180, 152);
+      margin:1%;
+      padding: 2%;
+      border-radius: 12px;
+    
+    
+  }
+  .nosotros:hover{
+    background-color: rgb(180, 153, 121);
+  }
+/***********************************************************************************/
+@media  (max-width : 768px) {
+  /* Estilos para dispositivos pequeños*/
+  
+ 
+  .navbar {
+    background-color: #ebc49a;
+    width:100%;
+    padding:2rem;
+  }
+  .central{
+    display:flex;
+    justify-content: center;
+  }
+  .portada_imagen {
+    width: 100vw;
+    height: 80vh;
+    background-image: url("imagenprimera.jpg");
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+          
+  }
+
+
+  .primero{
+    padding: 12px;
+    margin: 12px;
+    font-size: 16px;
+    color:rgb(235, 243, 242);    
+    font-weight: lighter;
+  }
+ 
+  .centrado .imagenPrincipal{
+   display:none;
+       
+  }
+  .segundo{
+    display:none;
+    
+  }
+  .cards{
+   
+    display:flex;
+    justify-content: center;
+    padding:2%;
+    margin:2%;
+  
+  }
+  .custom-card{
+    background-color: bisque;
+    border-style:groove;
+    border-color: black;
+    padding: 2%;
+    border-radius: 12px;
+    margin-bottom: 2%;
+   
+  }
+  .combo{
+    background-color: bisque;
+    border-style:groove;
+    border-color: black;
+    padding: 2%;
+    border-radius: 12px;
+    
+  }
+  .listasinmarcadores{
+    list-style-type: none; /* Elimina los marcadores de lista */
+  
+
+  }
+  .custom-card:hover{
+    background-color: rgb(180, 153, 121);
+  }
+  .cajaBoton{
+    display:flex;
+    justify-content:center;
+  }
+  .tienda div:last-child {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ 
+}
+ 
+
+
+
+/*******Para dispositivos mediados a xl************************/
+@media (min-width: 769px) 
+ {
+
+  
+
+.navbar {
+   
+    background-color: #ebc49a;
+   
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0.5rem;
+}
+
+ 
+  
+  .navbar .navbar-nav .nav-item{
+  font-size: 1em;
+  color:aliceblue;
+  margin: 1rem;
+  
+ }
+  .navbar .navbar-nav .nav-item .nav-link {
+   
+    transition: none;
+    font-size: 1em;
+    text-align:center;
+    color:aliceblue;
+    text-decoration: none;
+   
+  }
+  .navbar .navbar-nav  .nav-item .nav-link:hover {
+    background-color: #ad9d84;
+  }
+  .centrado{
+    display:flex;
+    justify-content: center;
+  }
+  .imagenPrincipal {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("libroportada2.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+          
+  }
+  .segundo{
+    margin-top: 1%;
+  }
+.imagen{
+    display: flex;
+    justify-content:space-around;
+    
+    
+   
+}
+.imagen p{
+  margin:2%;
+}
+.imagen .segundo{
+  margin-top: 15%;
+}
+.imagen img{
+  max-width:50%;
+   
+} 
+
+h1, h2  {
+  background-color: rgb(58, 53, 43);
+  text-align: center;
+  color:bisque;
+  padding: 5px;
+}
+h3{
+  text-align: center;
+  color:black;
+}
+.cards_alquiler{
+  display:flex;
+  justify-content:space-around;
+}
+.cards{
+  /*background-color: bisque;*/
+  display:flex;
+  justify-content: center;
+  padding:2%;
+  margin:2%;
+
+}
+.custom-card{
+  background-color: bisque;
+  border-style:groove;
+  border-color: black;
+  padding: 2%;
+  border-radius: 12px;
+  margin-bottom: 2%;
+ 
+}
+.combo{
+  background-color: bisque;
+  border-style:groove;
+  border-color: black;
+  margin:3%;
+  padding: 2%;
+  border-radius: 12px;
+  
+}
+.custom-card:hover{
+  background-color: rgb(180, 153, 121);
+}
+.cajaBoton{
+  display:flex;
+  justify-content:center;
+}
+.miBoton {
+  background-color: #4e3d27;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+
+  /* Estilos adicionales */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+#miBoton:hover {
+  background-color: #1d120c; /* Cambio de color al pasar el cursor */
+}
+
+.contenedorCombos{
+  display:inline-block;
+  padding:5%;
+  /*justify-content: center;*/
+}
+/*.cardCombo1 {
+  background-image: url('combo1.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  margin:2%;
+  padding:4%;
+ 
+}
+.cardCombo2 {
+  background-image: url('combo2.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  margin:2%;
+  padding:4%;
+  
+}
+.cardCombo-content {
+  padding: 20px;
+  color: rgb(17, 16, 16);
+  
+}*/
+.tienda div:last-child {
+ padding:0;
+}
+
+
+}
