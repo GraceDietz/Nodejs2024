@@ -49,6 +49,7 @@ h6 {
   font-weight: lighter;
   padding:1%;
   margin:1%;
+  margin-bottom: 2%;
    
 }.listasinmarcadores{
   list-style-type: none; /* Elimina los marcadores de lista */
@@ -156,8 +157,12 @@ h6 {
     padding: 2%;
     border-radius: 12px;
     margin-bottom: 2%;
-   
+    transform: scale(1);
+    transition: 0.5s;
+    cursor: pointer;
+    position:relative;
   }
+ 
   .combo{
     background-color: bisque;
     border-style:groove;
@@ -166,14 +171,18 @@ h6 {
     border-radius: 12px;
     
   }
+  .custom-card:hover{
+    background-color: rgb(209, 177, 138);
+    transform: scale(1.1);
+    z-index:2;
+  }
+
   .listasinmarcadores{
     list-style-type: none; /* Elimina los marcadores de lista */
   
 
   }
-  .custom-card:hover{
-    background-color: rgb(180, 153, 121);
-  }
+  
   .cajaBoton{
     display:flex;
     justify-content:center;
@@ -291,6 +300,10 @@ h3{
   padding: 2%;
   border-radius: 12px;
   margin-bottom: 2%;
+  transform: scale(1);
+  transition: 0.5s;
+  cursor: pointer;
+  position:relative;
  
 }
 .combo{
@@ -304,6 +317,8 @@ h3{
 }
 .custom-card:hover{
   background-color: rgb(180, 153, 121);
+  transform:scale(1.2);
+  z-index:2;
 }
 .cajaBoton{
   display:flex;
