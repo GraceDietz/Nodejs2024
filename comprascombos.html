@@ -68,16 +68,59 @@
 
 
   <!---Seccion Regalos Lecturitas-->
-  <section id="section_Regalos">
+  <section id="section_Regalos" >
 
+  <div class="container-card-wrapper ">
 
+    <div class="card-wrapper">
+      <div class="card">
+        <img src="combo1.jpg" class="card-img-top" alt="imagen de niña">
+        <div class="card-body">
+          <h5 class="card-title">Combo Lecturitas 1 </h5>
+          <p class="card-text">2 libros infantiles acorde a las edades de los lectores, de regalo incluye una pequeña sorpresa para estimular la lectura
+          </p>
+          <div class="btn-centrado">
+            <button class="button-wrapper">Costo $15000</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card-wrapper">
+      <div class="card">
+        <img src="combo2.jpg" class="card-img-top" alt="imagen de niños">
+        <div class="card-body">
+          <h5 class="card-title">Combo Lecturitas 2 </h5>
+          <p class="card-text">3 libros infantiles acorde a las edades de los lectores, de regalo incluye una pequeña sorpresa para estimular la lectura
+          </p>
+          <div class="btn-centrado">
+            <button class="button-wrapper">Costo $20000</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card-wrapper">
+      <div class="card">
+        <img src="combo3.jpg" class="card-img-top" alt="imagen de niños">
+        <div class="card-body">
+          <h5 class="card-title">Combo Lecturitas 3</h5>
+          <p class="card-text">4 libros infantiles acorde a las edades de los lectores, de regalo incluye una pequeña sorpresa para estimular la lectura
+          </p>
+          <div class="btn-centrado">
+            <button class="button-wrapper">Costo $24000</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<!-- comienzo de loo que tenia hecho con boostrap de antes
     <div class="container">
       <h2 class="subtitulo">Regalos Lecturitas </h2>
       <div class="row">
-
-
-
-        <!--tarjeta nro 1-->
+     
         <div class="col-md-4 col-sm-12 d-flex justify-content-center">
           <div class="card  d-flex align-items-center justify-content-center p-2">
 
@@ -94,9 +137,7 @@
 
           </div>
         </div>
-        <!--fin tarjeta nro 1-->
-
-        <!--tarjeta nro 2-->
+       
         <div class="col-md-4 col-sm-12 d-flex justify-content-center">
           <div class="card  d-flex align-items-center justify-content-center p-2">
             <img src="combo2.jpg" class="card-img-top" alt="imagen de niños">
@@ -113,9 +154,7 @@
 
           </div>
         </div>
-        <!--fin tarjeta nro 2-->
-
-        <!--tarejta nro 3-->
+               
         <div class="col-md-4 col-sm-12 d-flex justify-content-center">
           <div class="card  d-flex align-items-center justify-content-center p-2">
 
@@ -135,16 +174,15 @@
 
           </div>
         </div>
-        <!--fin tarjeta nro 3-->
+      
 
       </div>
       <p class="nosotros">Cada combo incluye una carta con consejos sobre la literatura en la infancia y sorpresas
         especialmente diseñadas para hacer la experiencia aun más divertida. Los precios son en pesos.
         Los precios no incluyen gastos de envío a definir según domicilio de entrega.
-
       </p>
     </div>
-
+    fin con boostrap-->
   </section>
 
 
@@ -162,32 +200,27 @@
       <form id="form" action="#" autocomplete="off">
         <div class="row g-3">
           <div class="col-lg-6 col-sm-12 mt-4">
-            
-            <input id="input_nombre" type="text" class="form-control" placeholder="Nombre">
-            <!-- <span id="mensajeNombre" class="idErrorNoVisible" >mensaje</span> -->
-
+               <input id="input_nombre" type="text" class="form-control" placeholder="Nombre">
+          
           </div>
           <div class="col-lg-6 col-sm-12 mt-4">
             <input id="input_apellido" type="text" class="form-control" placeholder="Apellido" required>
-            <!--  <span id="mensajeApellido" class="idErrorNoVisible">mensaje</span>-->
-
+          
           </div>
           <div class="col-lg-6 col-sm-12 mt-4">
             <input id="input_domicilio" type="text" class="form-control" placeholder="Domicilio de entrega" required>
-            <!--  <span id="mensajeApellido" class="idErrorNoVisible">mensaje</span>-->
-
+           
           </div>
           <div class="col-lg-6 col-sm-12 mt-4">
             <input id="input_personalizado" type="text" class="form-control" placeholder="Nombre del niño/niña"
               required>
-            <!--  <span id="mensajeApellido" class="idErrorNoVisible">mensaje</span>-->
-
+            
           </div>
         </div>
 
         <div class="col-12 mt-4 mb-4 ">
           <input type="email" id="input_email" class="form-control" placeholder="Correo" required>
-          <!-- <span id="mensajeMail" class="idErrorNoVisible">mensaje</span>-->
+         
         </div>
 
         <textarea name="" id="" class="textArea form-control col-12 mt-1" placeholder="Incluye una dedicatoria en tu regalo..."
@@ -210,7 +243,7 @@
 
 
             </select>
-            <!--<span id="mensajeCategoria" class="idErrorNoVisible">mensaje</span>-->
+           
 
           </div>
         </div>
@@ -237,8 +270,8 @@
     <p class="nosotros">En Your Books creemos firmemente en que la educación y la lectura son dos instrumentos valiosos
       para el crecimiento del ser humano, por ello junto a nuestros suscriptores y clientes queremos ser participes de
       una realidad que juntos podemos mejorar, todos los meses haremos una donación de libros a alguna institucion
-      pública para que niños y niñas disfruten de la lectura, por ello recibimos con alegría libros que deseen
-      ser redescubiertos por nuestros pequeños lectores, recibimos también sugerencias para llevarlos a instituciones
+      pública para que niños y niñas disfruten de la lectura, por ello recibimos con alegría libros
+      para nuestros pequeños lectores, recibimos también sugerencias para llevarlos a instituciones
       que así nos lo hagan saber...juntos podemos !</p>
 
   </section>
@@ -265,9 +298,6 @@
 <i class="fa-sharp fa-solid fa-envelope"></i>
 <i class="fa-brands fa-instagram"></i>
 <i class="fa-brands fa-facebook"></i>
-
-
-
 -->
 
 </html>
