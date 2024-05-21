@@ -152,7 +152,7 @@ h6 {
   
   }
   .custom-card{
-    background-color: bisque;
+    background-color:white;
     border-style:groove;
     border-color: black;
     padding: 2%;
@@ -174,7 +174,7 @@ h6 {
 
   }
   .custom-card:hover{
-    background-color: rgb(180, 153, 121);
+    background-color: rgb(230, 224, 218);
   }
   .cajaBoton{
     display:flex;
@@ -225,6 +225,47 @@ h6 {
   
 
 }
+ /*CAROUSEL TIENDA DE LIBROS*/
+  
+ .cardi:not(:first-child) {
+  display: none;
+}
+
+.cardi {
+  background-color: white;
+  padding:2%;
+  margin:0 auto;
+  border-radius: 12px;
+  max-width: 100%;
+  min-width: 100%;
+}
+.card-title{
+  font-size: 14px;
+
+}
+.image-wrapper {
+  /*height: 20vw;*/
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.btn-primary {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
 }
 
 
@@ -325,7 +366,7 @@ h3{
 
 }
 .custom-card{
-  background-color: bisque;
+  background-color: white;
   border-style:groove;
   border-color: black;
   padding: 2%;
@@ -343,7 +384,9 @@ h3{
   
 }
 .custom-card:hover{
-  background-color: rgb(180, 153, 121);
+  background-color: rgb(230, 224, 218);
+ 
+  
 }
 .cajaBoton{
   display:flex;
@@ -437,6 +480,43 @@ margin-bottom: 0.5rem;
 .tienda div:last-child {
  padding:0;
 }
+/**estilos carousel deni**/
+.cards-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardi {
+  margin: 1em;
+  width: calc(100%/3);
+  background-color: white;
+  padding:2%;
+  margin:2%;
+  border-radius: 12px;
+}
+.card-title{
+  font-size: 14px;
+
+}
+.image-wrapper {
+  /*height: 20vw;
+  margin: 0 auto;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.btn-primary {
+  display: flex;
+  justify-content: center;
+}
+
 
 
 }
@@ -532,7 +612,7 @@ margin:2%;
 
 }
 .custom-card{
-background-color: bisque;
+background-color: white;
 border-style:groove;
 border-color: black;
 padding: 2%;
@@ -550,7 +630,7 @@ border-radius: 12px;
 
 }
 .custom-card:hover{
-background-color: rgb(180, 153, 121);
+  background-color: rgb(230, 224, 218);
 }
 .cajaBoton{
 display:flex;
@@ -604,7 +684,7 @@ background-color: #6c757d;
 border: none;
 padding: 0.5rem;
 border-radius: 10px;
-font-size: 16px;
+font-size: 14px;
 display: block;
 
  
@@ -616,11 +696,50 @@ display: block;
   border: none;
   padding: 0.5rem;
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 14px;
   color:black;
   cursor: pointer;
   display:block;
 
 }
+
+
+/**estilos carousel Den**/
+.cards-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-title{
+  font-size: 14px;
+
+}
+.cardi {
+  margin: 1em;
+  width: calc(100%/3);
+  background-color: white;
+  padding:2%;
+  margin:2%;
+  border-radius: 12px;
+}
+
+.image-wrapper {
+  /*height: 20vw;
+  margin: 0 auto;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.btn-primary {
+  display: flex;
+  justify-content: center;
+}
+
 
 }
