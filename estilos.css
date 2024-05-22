@@ -312,6 +312,7 @@ h6 {
   .centrado{
     display:flex;
     justify-content: center;
+    
   }
   .imagenPrincipal {
     width: 100vw;
@@ -558,15 +559,15 @@ margin: 1rem;
 .centrado{
   display:flex;
   justify-content: center;
+  
 }
 .imagenPrincipal {
   width: 100vw;
   height: 100vh;
   background-image: url("libroportada2.jpg");
   
-  background-size: cover;
-  background-repeat: no-repeat;
-        
+  background-size:cover;
+  /*background-repeat: no-repeat;*/
 }
 .segundo{
   margin-top: 1%;
