@@ -100,8 +100,10 @@ h6 {
     
   }
   .nosotros:hover{
-    background-color: rgb(180, 153, 121);
+    background-color: rgb(230, 224, 218);
   }
+  
+  
 /***********************************************************************************/
 
 @media (min-width: 320px) and (max-width: 768px) {
@@ -109,22 +111,25 @@ h6 {
     
   .navbar {
     background-color: #ebc49a;
-    width:100%;
-    padding:2rem;
+    padding:2.5rem;
+   
+   
   }
   .central{
     display:flex;
     justify-content: center;
   }
+
   .portada_imagen {
     width: 100vw;
     height: 80vh;
-    background-image: url("imagenprimera.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagenprimera.jpg");
    
     background-size: cover;
     background-repeat: no-repeat;
           
   }
+
 
 
   .primero{
@@ -261,11 +266,16 @@ h6 {
   justify-content: center;
 }
 
+.color-form{
+  width:100%;
+  background-color: rgb(230, 224, 218);
+ 
+ 
+ padding: 1rem;
 
 
 
-
-
+}
 }
 
 
@@ -278,23 +288,17 @@ h6 {
  
 
 .navbar {
-   
     background-color: #ebc49a;
-   
-    display: flex;
-    flex-direction:row;
-    justify-content: space-around;
-    align-items: center;
     list-style: none;
-    padding: 0.5rem;
-}
+    padding:1.5rem;
+    }
 
  
   
   .navbar .navbar-nav .nav-item{
   font-size: 1em;
   color:aliceblue;
-  margin: 1rem;
+  /*margin: 1rem;*/
   
  }
   .navbar .navbar-nav .nav-item .nav-link {
@@ -314,6 +318,7 @@ h6 {
     justify-content: center;
     
   }
+
   .imagenPrincipal {
     width: 100vw;
     height: 100vh;
@@ -323,6 +328,7 @@ h6 {
     background-repeat: no-repeat;
           
   }
+  
   .segundo{
     margin-top: 1%;
   }
@@ -518,8 +524,14 @@ margin-bottom: 0.5rem;
   justify-content: center;
 }
 
+.color-form{
+  width:80%;
+  background-color: rgb(230, 224, 218);
+ 
+ 
+ padding: 1rem;
 
-
+}
 }
 @media (min-width: 993px) {
   /* Estilos para laptops y monitores pequeños */
@@ -561,6 +573,7 @@ margin: 1rem;
   justify-content: center;
   
 }
+
 .imagenPrincipal {
   width: 100vw;
   height: 100vh;
@@ -569,6 +582,10 @@ margin: 1rem;
   background-size:cover;
   /*background-repeat: no-repeat;*/
 }
+
+
+
+
 .segundo{
   margin-top: 1%;
 }
@@ -741,6 +758,12 @@ display: block;
   display: flex;
   justify-content: center;
 }
+.color-form{
+  width:80%;
+  background-color: rgb(230, 224, 218);
+ 
+ 
+ padding: 1rem;
 
-
+}
 }
