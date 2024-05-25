@@ -124,8 +124,8 @@ h6 {
     width: 100vw;
     height: 80vh;
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagenprimera.jpg");
+    object-fit: contain;
    
-    background-size: cover;
     background-repeat: no-repeat;
           
   }
@@ -575,12 +575,14 @@ margin: 1rem;
 }
 
 .imagenPrincipal {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
-  background-image: url("libroportada2.jpg");
+  background-image: url("img/ultima.jpg");
   
-  background-size:cover;
-  /*background-repeat: no-repeat;*/
+ 
 }
 
 
